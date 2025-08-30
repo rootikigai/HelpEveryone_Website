@@ -176,3 +176,73 @@ header{
   height: auto;
   display: block;
 }
+
+.about_section {
+  position: relative;
+  background: #fafafa;
+  text-align: center;
+  padding: 64px 0 32px 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.about_bg {
+  position: absolute;
+  top: 24px;
+  left: 38%;
+  transform: translateX(-50%);
+  width: 320px;
+  height: 80px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.about_clouds {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.7;
+}
+
+.about_title {
+  position: relative;
+  z-index: 1;
+  font-size: 40px;
+  font-weight: 700;
+  color: #444;
+  margin-bottom: 24px;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.about_text {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  margin: 0 auto 32px auto;
+  font-size: 18px;
+  color: #444;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.01em;
+  padding: 0 24px;
+}
+
+.about_text br{
+    display: block;
+    margin-bottom: 12px;
+    content: "";
+}
+
+.about_image {
+  position: relative;
+  z-index: 1;
+  margin-top: 16px;
+  left: 250px;
+}
+
+.about_image img {
+  width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
