@@ -93,3 +93,86 @@ header{
 .signup_button:hover {
   border-color: #2196f3;
 }
+
+.hero_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 32px 0 32px;
+    background: #fafafa;
+}
+
+.hero_content{
+    max-width: 520px;
+}
+
+.hero_content h1{
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 1.1;
+    margin: 0 0 24px 0;
+    color: #222;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.highlight{
+    color: #2196f3;
+}
+
+.hero_subtext{
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 32px;
+}
+
+.hero_actions{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.get_started_btn {
+  background: #2196f3;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 32px;
+  border-radius: 2px;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 #bbb;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.get_started_btn:hover{
+    background: #1769aa;
+}
+
+.watch_story{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+.play_icon{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: #eaf6fe;
+    color: #2196f3;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+.hero_image img {
+  width: 480px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
